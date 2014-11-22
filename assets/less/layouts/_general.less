@@ -1,0 +1,39 @@
+// Content wrapper
+.wrap { }
+
+.brand-4 {
+	border-radius: 0;
+	border: 0 none;
+	background: @brand-success;
+	color: @gray-zero;
+	text-align: center;
+}
+
+// Main content area
+.main {
+  .make-sm-column(@main-sm-columns);
+  .sidebar-primary & {
+    .make-sm-column(@main-sm-columns - @sidebar-sm-columns);
+  }
+  
+  ul.highlights {
+	  margin: 0;
+	  padding: 0;
+	  list-style-type: none;
+	  
+	  li {
+		  display: inline-block;
+		  margin: 0 5%;
+		  width: 30%;
+		  vertical-align: top;
+	  }
+	  
+	  li:nth-child(1) {
+		  margin: 0 0;
+	  }
+	  
+	  li:last-child {
+		margin: 0 0;	  
+	  }
+  }
+}
