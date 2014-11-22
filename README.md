@@ -1,3 +1,7 @@
+# This theme is based on the Roots Starter Theme (see below)
+
+All files here are modifications of the Roots Starter theme. See information below for how to install. I will add more later. 
+
 # [Roots Starter Theme](http://roots.io/)
 [![devDependency Status](https://david-dm.org/roots/roots/dev-status.svg)](https://david-dm.org/roots/roots#info=devDependencies)
 
